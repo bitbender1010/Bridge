@@ -20,6 +20,7 @@ body {
 .signin__form__div {
     background-color: white;
     width: 350px;
+    position: relative;
     height: 452px;
     display: flex;
     flex-direction: column;
