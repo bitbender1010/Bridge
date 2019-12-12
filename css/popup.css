@@ -1,0 +1,91 @@
+.progress-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+}
+
+.one {
+    background: #ff9b05;
+    width: calc(100% / 3);
+    height: 5px;
+    border-right: 2px solid white;
+}
+
+.two {
+    background: lightgray;
+    width: calc(100% / 3);
+    height: 5px;
+}
+
+.three {
+    background: lightgray;
+    width: calc(100% / 3);
+    height: 5px;
+}
+
+/*popup style*/
+.popup-main {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.task-Q {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.task-D {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+/*box input*/
+.box-input input {
+    border: 2px solid #D1D1D1;
+    width: 100%;
+    height: 150px;
+    margin: 0px auto;
+    border-radius: 20px;
+    outline: none;
+}
+
+#next {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 0px auto;
+    background: #ff9b05;
+    color: white;
+    font-size: 20px;
+}
+
+.next-id {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 10% auto;  
+}
+
+/*popup extraz*/
+.main-progress-content {
+    padding: 0px 30px;
+}
+
+/*step one*/
+.step-one {
+    display: none;
+}
