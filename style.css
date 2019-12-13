@@ -427,7 +427,7 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
 
 .modal-content {
     width: 600px;
-    height: 80vh;
+    height: 80%;
     background: white;
     display: flex;
     justify-content: center;
@@ -435,8 +435,8 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
 }
 
 .popup-img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
 }
 
 .pop-main {
@@ -457,9 +457,9 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
 }
 
 .pop-cover {
-    width: 300px;
-    height: 250px;
-    margin: 15vh auto;
+    width: 250px;
+    height: 200px;
+    margin: 10vh auto;
     margin-bottom: 0px;
 }
 
