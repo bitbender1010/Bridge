@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./feed.css">
+    <script src="https://kit.fontawesome.com/b179ea9307.js" crossorigin="anonymous"></script>
+    <title>News feed</title>
+</head>
+<body>
+    <header>
+        <nav class="nav__brand">
+            <div class="brand">
+                <!-- TODO: put the brand logo image here and clear the comment -->
+                <img src="" alt="brand-logo"><span>Bridge</span>
+            </div>
+            <div class="add__post"><i class="fas fa-plus"></i></div>
+        </nav>
+        <div class="dashboard">
+            <div class="news__feed dashboard__item active">
+                <i class="fab fa-buromobelexperte"></i>
+                <span class="dashboard__description">News Feed</span>
+            </div>
+
+            <div class="chat dashboard__item">
+                <i class="far fa-comments"></i>
+                <span class="dashboard__description">Chat</span>
+            </div>
+
+            <div class="notification dashboard__item">
+                <i class="far fa-bell"></i>
+                <span class="dashboard__description">Notification</span>
+            </div>
+
+            <div class="search dashboard__item">
+                <i class="fas fa-search"></i>
+                <span class="dashboard__description">Search</span>
+            </div>
+
+            <div class="handle__bar dashboard__item">
+                <i class="fas fa-bars"></i>
+                <span class="dashboard__description">Menu</span>
+            </div>
+        </div>
+    </header>
+    <div class="dropdown__selector">
+        <div class="selector">
+            <span id="distance">50km</span>
+            <i class="fas fa-caret-down selector__icon"></i>
+        </div>
+
+        <div class="selector">
+            <span id="price">Any price</span>
+            <i class="fas fa-caret-down selector__icon"></i>
+        </div>
+
+        <div class="dropdown__div">
+                <div class="triangle-up"></div>
+                <span class="close__modal"><i class="fas fa-times"></i></span>
+
+            <div class="dropdown__body"></div>
+
+        </div>
+    </div>
+
+
+    <div class="feed">
+        
+        <div class="feed__card">
+            <div class="profile__img"><img src="../404Page.png" alt="username"></div>
+            <div class="user__details">
+                <p class="description">I need house cleaning service</p>
+                <p><i class="fas fa-globe"></i> <span class="status">Remote</span></p>
+                <p class="date"><i class="far fa-calendar-alt"></i> <span>Thu, 19 Dec</span> </p>
+            </div>
+            <div class="amount">
+                <p>$200</p>
+                <p>OPEN . 7 offers</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="./feed.js"></script>
+</body>
+</html>
