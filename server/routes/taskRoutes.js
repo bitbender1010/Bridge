@@ -1,12 +1,12 @@
 var express = require('express');
 const app = express();
 
-app.get('/routes',(req, res)=>{
-    res.json('All routes files')
+app.get('/tasks/all',(req, res)=>{
+    res.status(200).json('All tasks in the database');
 });
 
-app.get('/dashboard/:name', (req,res)=>{
-    res.json(`Welcome Mr/Mrs ${req.params.name} to simple node app`);
+app.get('/tasks/:id', (req,res)=>{
+    res.status(200).json(`Task with id:${req.params.id} `);
 })
 
 module.exports = app;
