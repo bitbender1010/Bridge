@@ -8,19 +8,6 @@ Bridge is an online marketplace for outsourcing offline and remote tasks.
 * Anani Oluwatobiloba - Full stack developer
 * Emeruche Uchenna - Full stack developer
 
-# Problem
-
-
-
-# Proposed Solution
-
-
-# Proposed Stack
-
-
-# Benefit
-
-
 
 
 # Top-level directory layout
