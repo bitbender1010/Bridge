@@ -58,11 +58,12 @@
 
 /*how briidge works*/
 .how {
-    font-size: 6.5vw;
+    font-size: 7vw;
+    padding-top: 10px;
 }
 
 .how-details {
-    font-size: 4vw;
+    font-size: 5vw;
     width: 90%;
 }
 
