@@ -52,4 +52,32 @@
         </div>
     </div>
 </body>
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-firestore.js"></script>
+
+<script>
+     // Your web app's Firebase configuration
+    
+    //Add missing config object here
+    var firebaseConfig = {     
+        apiKey: "AIzaSyCyxzgHnahEen0ZdbkDZxRan_3rI-aofNA",     
+        authDomain: "bridge-proj.firebaseapp.com",     
+        databaseURL: "https://bridge-proj.firebaseio.com",     
+        projectId: "bridge-proj",     
+        storageBucket: "bridge-proj.appspot.com",     
+        messagingSenderId: "137211896657",     
+        appId: "1:137211896657:web:7eb6442fd17d869b20a970"
+    };
+    
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+//   Make auth and firebase reference;
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+
+</script>
+<script src="scripts/auth.js"></script>
 </html>

@@ -27,6 +27,7 @@ nav {
 button {
     padding: 0px;
     margin: 0px;
+    cursor: pointer;
 }
 
 /*BUTTON RIGHT:: FLEX */
