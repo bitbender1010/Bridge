@@ -5,6 +5,8 @@ var app = express();
 
 app.use('/api/v1', taskRoutes)
 
+// express.static()
+
 app.get('/', function(req, res){
     res.status(200).json({
         message: 'Welcome to my app'
@@ -12,7 +14,7 @@ app.get('/', function(req, res){
 });
 
 app.use('*',function(req,res){
-    res.json(`<h1 style="text-align:center">404 No Found</h1>`);
+    res.json('404 No Found');
 });
 
 app.listen(3400, function(){console.log('App started on port 3400')});
