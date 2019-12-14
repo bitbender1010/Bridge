@@ -7,6 +7,14 @@ app.get('/tasks/all',(req, res)=>{
 
 app.get('/tasks/:id', (req,res)=>{
     res.status(200).json(`Task with id:${req.params.id} `);
-})
+});
+
+app.delete('/tasks/:id', (req,res)=>{
+    res.status(202).json(`Deleted task with id:${req.params.id} `);
+});
+
+app.put('/tasks/:id', (req,res)=>{
+    res.status(202).json(`updated task with id:${req.params.id} `);
+});
 
 module.exports = app;
