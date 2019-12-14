@@ -20,6 +20,7 @@
   "homepage": "https://github.com/adebayoileri/Bridge#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
   }
 }
