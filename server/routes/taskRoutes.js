@@ -5,6 +5,7 @@ app.get('/tasks/all',(req, res)=>{
     res.status(200).json('All tasks in the database');
 });
 
+//Get all tasks in the databse
 app.get('/tasks/:id', (req,res)=>{
     res.status(200).json(`Task with id:${req.params.id} `);
 });
