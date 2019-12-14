@@ -59,6 +59,16 @@
     outline: none;
 }
 
+.price-input input {
+    border: 2px solid #D1D1D1;
+    width: 50%;
+    height: 30px;
+    margin: 0px auto;
+    border-radius: 20px;
+    outline: none;
+    text-indent: 10px;
+}
+
 #next, #back {
     width: 500px;
     height: 50px;
@@ -98,4 +108,100 @@
 
 #back, #back-two, #back-three {
     margin-right: 15%;
+}
+
+input[type="radio"] {
+    width: 30px;
+    height: 30px;
+}
+
+.location-cover {
+    padding: 10px;
+    margin: 10px 0px;
+    margin-right: 10px;
+}
+
+.location-cover2 {
+    padding: 10px;
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+
+
+.main-loc {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+}
+
+.sub-loc {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+/* Style address*/
+#address {
+    border: 2px solid #D1D1D1;
+    width: 50%;
+    height: 30px;
+    margin: 0px auto;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.whenDate {
+    padding-top: 30px!important;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#dateTime {
+    border: 2px solid #D1D1D1;
+    width: 50%;
+    height: 30px;
+    margin: 0px auto;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 8px;
+}
+
+/*Budjet*/
+.budjet {
+    height: 100px;
+    width: 100%;
+    background: #ff9b05;
+    margin-top: 25%;
+}
+
+.estimate {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: blue;
+    position: relative;
+    top: 20px;
+    margin: 0px 20px;
+}
+
+.sub-estimate {
+    font-size: 18px;
+    font-weight: 100;
+    color: blue;
+    position: relative;
+    top: 20px;
+    margin: 0px 20px;
+}
+
+.set-price {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -25px;
+    margin: 0px 20px;
 }

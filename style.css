@@ -600,3 +600,15 @@ textarea {
 #back, #back-two, #back-three {
     background: #1D4354!important;
 }
+
+
+/*location*/
+.location {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+.location-cover, .location-cover2 {
+    background: lightgray;
+}

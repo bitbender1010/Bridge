@@ -223,15 +223,40 @@
         
             <div class="main-progress-content">
                 <!--3 stage progress bar-->
-                <div class="task-Q"> 5What do you want to do?</div>
+                <div class="task-Q"> Where do you need it done?</div>
+                <!--
                 <div class="task-D">This is the main title of your task - eg Help clean apartment</div>
-                <div class="box-input"> <input type="text"/> </div>
+                <div class="box-input"> <input type="text"/> </div> -->
         
-                <!--details-->
-                <div class="task-Q"> What are the details?</div>
+                <!--details
+                <div class="task-Q"> When do you need it done?</div>
                 <div class="task-D">What are the specific details you can provide?</div>
                 <div class="box-input"> <input type="text"/> </div>
+                <br>-->
+
+                <div class="location"> <!--venue-->
+                    <div class="location-cover"> 
+                        <input type="radio" id="radioMe" name="location_radio" value="offline_location"/> <span class="main-loc"> In person </span>
+                        <br>
+                        <div class="sub-loc"> Select this if you want tasker to be there physically </div>
+                        <img src="./images/pin.png"/>
+                    </div>
+                    <!--remote-->
+                    <div class="location-cover2"> 
+                        <input type="radio" name="location_radio" value="online_location"/> <span class="main-loc">Online</span>
+                        <br>
+                        <div class="sub-loc"> Select this if tasker can do task remotely </div>
+                        <img src="./images/phone.png"/>
+                    </div>
+                </div>
+
+                <!--address-->
+                <input placeholder="Enter Address" id="address"/>
                 <br>
+                <!--time-->
+                <div class="whenDate"> When do you need it done? </div>
+                <input type="date" id="dateTime"/>
+                <!----->
                 <div class="next-id backNext">
                     <button id="back-two"> Back </button>
                     <button id="next-two"> Next </button>
@@ -256,19 +281,27 @@
             <div class="main-progress-content">
                 <!--3 stage progress bar-->
                 <div class="task-Q"> Enter your budjet</div>
-                <div class="task-D">This is the main title of your task - eg Help clean apartment</div>
-                <div class="box-input"> <input type="text"/> </div>
-        
-                <!--details-->
+                <div class="task-D">How much do you plan topay for tis task?</div>
+                <div class="price-input"> <input type="text"/> </div>
+                
+                <!--Estimated Budjet-->
+                <div class="budjet">
+                    <div class="estimate"> ESTIMATED BUDJET </div>
+                    <div class="sub-estimate"> Final payment will be agreed on later </div>
+                    <div class="set-price"> 5000 </div>
+                </div>
+        <!--
+                /*details*/
                 <div class="task-Q"> What are the details?</div>
                 <div class="task-D">What are the specific details you can provide?</div>
-                <div class="box-input"> <input type="text"/> </div>
+                <div class="box-input"> <input type="text"/> </div> -->
                 <br>
                 <div class="next-id backNext">
                     <button id="back-three"> Back </button>
                     <button id="next-three"> Next </button>
                 </div>
             </div>
+
             </div>
             <!--end-->
 
