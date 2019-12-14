@@ -68,6 +68,9 @@ function goNextOne() {
 let nextTwo = document.querySelector('#next-two');
 nextTwo.addEventListener('click', goNextTwo);
 
+let backTwo = document.querySelector('#back-two');
+backTwo.addEventListener('click', goBackTwo);
+
 function goNextTwo() {
     /*make current page fade & new ppae appear*/
     modalContent.style.display = "block";
@@ -78,10 +81,23 @@ function goNextTwo() {
     console.log("Three issa number");
 }
 
+
+function goBackTwo() {
+    /*make current page fade & new ppae appear*/
+    modalContent.style.display = "block";
+    divi.style.display = "none";
+    stepOne.style.display = "block";
+    stepTwo.style.display = "none";
+    stepThree.style.display = "none";
+    console.log("Three issa number");
+}
 ///////////////////////////////////////
 /*Move to login*/
 let nextThree = document.querySelector('#next-three');
 nextThree.addEventListener('click', goNextThree);
+
+let backThree = document.querySelector('#back-three');
+backThree.addEventListener('click', goBackThree);
 
 function goNextThree() {
     /*make current page fade & new ppae appear*/
@@ -93,3 +109,17 @@ function goNextThree() {
     siginContainer.style.display = "block";
     console.log("issa login");
 }
+
+
+function goBackThree() {
+    /*make current page fade & new ppae appear*/
+    modalContent.style.display = "block";
+    divi.style.display = "none";
+    stepOne.style.display = "none";
+    stepTwo.style.display = "block";
+    stepThree.style.display = "none";
+    siginContainer.style.display = "none";
+    console.log("issa login");
+}
+//////////////////////////
+/*Go back*/

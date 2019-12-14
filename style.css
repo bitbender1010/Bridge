@@ -476,7 +476,7 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
     margin: 0px auto;
 }
 
-#next-two, #back, #next-three{
+#next-two, #back, #next-three, #back-two, #back-three{
     background: #ff9b05;
     outline: none;
     border: none;
@@ -597,6 +597,6 @@ textarea {
     height: 400px;
 }
 
-#back {
+#back, #back-two, #back-three {
     background: #1D4354!important;
 }

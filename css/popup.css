@@ -96,6 +96,6 @@
     width: 500px;
 }
 
-#back {
+#back, #back-two, #back-three {
     margin-right: 15%;
 }
