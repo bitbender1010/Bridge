@@ -42,6 +42,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 5%;
 }
 
 .signin__form__div {
@@ -52,6 +54,7 @@ body {
     height: 452px;
     display: flex;
     flex-direction: column;
+    margin: 0px auto;
 }
 
 .header__cancel__modal {
@@ -88,6 +91,7 @@ body {
 .email__label,
 .password__label {
     margin-bottom: 2px;
+    color: black;
 }
 
 #signin__email__input,

@@ -59,8 +59,8 @@
     outline: none;
 }
 
-#next {
-    width: 300px;
+#next, #back {
+    width: 500px;
     height: 50px;
     border-radius: 20px;
     outline: none;
@@ -77,7 +77,8 @@
     border-radius: 20px;
     outline: none;
     border: none;
-    margin: 5% auto;  
+    margin: 5% auto;
+    text-align: center;
 }
 
 /*popup extraz*/
@@ -86,6 +87,15 @@
 }
 
 /*step one*/
-.step-one {
+.step-one, .step-two, .step-three {
     display: none;
+}
+/* make back and next stay*/
+.backNext {
+    display: flex;
+    width: 500px;
+}
+
+#back {
+    margin-right: 15%;
 }

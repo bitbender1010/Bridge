@@ -1,22 +1,27 @@
 let divi = document.querySelector('.divi');
 let stepOne = document.querySelector('.step-one');
+let stepTwo = document.querySelector('.step-two');
+let stepThree = document.querySelector('.step-three');
+let siginContainer = document.querySelector('.signin__container');
 let modalContent = document.querySelector('.modal-content');
 
 let post = document.querySelector('.post');
 post.addEventListener('click', show);
 /*show*/
-function show(e) {
+function show() {
     document.querySelector('.bg-modal').style.display = "flex";
     /*show 2nd child*/
     divi.style.display = "block";
     
     modalContent.style.display = "flex";
     stepOne.style.display = "none";
+    stepTwo.style.display = "none";
+    stepThree.style.display = "none";
+    siginContainer.style.display = "none";
     /*end*/
     window.scrollTo(0, 0);
     document.querySelector('body').style.overflow = "hidden";
     console.log('show');
-    e.preventdefault();
 }
 
 /*cancel*/
@@ -42,7 +47,49 @@ function goNext() {
     modalContent.style.display = "block";
     divi.style.display = "none";
     stepOne.style.display = "block";
+}
 
-    /*child node*/
-     
+///////////////////////////////////////
+/*Move to question 2*/
+let nextOne = document.querySelector('#next-one');
+nextOne.addEventListener('click', goNextOne);
+
+function goNextOne() {
+    /*make current page fade & new ppae appear*/
+    modalContent.style.display = "block";
+    divi.style.display = "none";
+    stepOne.style.display = "none";
+    stepTwo.style.display = "block";
+    console.log("Go Next One");
+}
+
+///////////////////////////////////////
+/*Move to question 3*/
+let nextTwo = document.querySelector('#next-two');
+nextTwo.addEventListener('click', goNextTwo);
+
+function goNextTwo() {
+    /*make current page fade & new ppae appear*/
+    modalContent.style.display = "block";
+    divi.style.display = "none";
+    stepOne.style.display = "none";
+    stepTwo.style.display = "none";
+    stepThree.style.display = "block";
+    console.log("Three issa number");
+}
+
+///////////////////////////////////////
+/*Move to login*/
+let nextThree = document.querySelector('#next-three');
+nextThree.addEventListener('click', goNextThree);
+
+function goNextThree() {
+    /*make current page fade & new ppae appear*/
+    modalContent.style.display = "block";
+    divi.style.display = "none";
+    stepOne.style.display = "none";
+    stepTwo.style.display = "none";
+    stepThree.style.display = "none";
+    siginContainer.style.display = "block";
+    console.log("issa login");
 }

@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
     <!--POP UP-->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/popup.css">
+    <!--Login-->
+    <link rel="stylesheet" href="./sign_in.css">
     <!--mobile-->
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
     <!--Tablet-->
@@ -201,27 +203,27 @@
             <div class="task-D">What are the specific details you can provide?</div>
             <div class="box-input"> <input type="text"/> </div>
             <br>
-            <div class="next-id"><button id="next"> Next </button></div>
+            <div class="next-id"><button id="next-one"> Next </button></div>
         </div>
         </div>
         <!--end-->
 
         <!--where and when-->
         <!--Progress Bar 2-->
-        <div class="step-one">
+        <div class="step-two">
             <div class="popup-main">Provide location, details and time</div>
             <!--Progress Bar-->
             <div class="progress-container"> 
                 <ul class="progress-bar">
                     <li class="active one"> </li>
-                    <li class="two"> <li>
+                    <li class="one"></li> <li>
                     <li class="three"> </li>
                 </ul>
             </div> 
         
             <div class="main-progress-content">
                 <!--3 stage progress bar-->
-                <div class="task-Q"> What do you want to do?</div>
+                <div class="task-Q"> 5What do you want to do?</div>
                 <div class="task-D">This is the main title of your task - eg Help clean apartment</div>
                 <div class="box-input"> <input type="text"/> </div>
         
@@ -230,11 +232,75 @@
                 <div class="task-D">What are the specific details you can provide?</div>
                 <div class="box-input"> <input type="text"/> </div>
                 <br>
-                <div class="next-id"><button id="next"> Next </button></div>
+                <div class="next-id backNext">
+                    <button id="back"> Back </button>
+                    <button id="next-two"> Next </button>
+                </div>
             </div>
             </div>
             <!--end-->
     
+        <!--Enter Budget-->
+        <!--Progress Bar 3-->
+        <div class="step-three">
+            <div class="popup-main">Enter Your Budjet</div>
+            <!--Progress Bar-->
+            <div class="progress-container"> 
+                <ul class="progress-bar">
+                    <li class="active one"> </li>
+                    <li class="one"> <li>
+                    <li class="one"> </li>
+                </ul>
+            </div> 
+        
+            <div class="main-progress-content">
+                <!--3 stage progress bar-->
+                <div class="task-Q"> Enter your budjet</div>
+                <div class="task-D">This is the main title of your task - eg Help clean apartment</div>
+                <div class="box-input"> <input type="text"/> </div>
+        
+                <!--details-->
+                <div class="task-Q"> What are the details?</div>
+                <div class="task-D">What are the specific details you can provide?</div>
+                <div class="box-input"> <input type="text"/> </div>
+                <br>
+                <div class="next-id backNext">
+                    <button id="back"> Back </button>
+                    <button id="next-three"> Next </button>
+                </div>
+            </div>
+            </div>
+            <!--end-->
+
+            <!-- Login details -->
+            <div class="signin__container">
+                <div class="signin__form__div">
+                    <div class="header__cancel__modal"><p>Login to continue</p></div>
+                    <div class="form">
+                        <form id="sign__form">
+                            <label for="signin__email">
+                                <p class="email__label">Email</p>
+                                <input type="email" name="email" id="signin__email__input" required>
+                            </label>
+                            <label for="signin__password">
+                                <p class="password__label">Password</p>
+                                <input type="password" name="password" id="signin__password__input" required>
+                            </label> <br>
+                            <button id="signin__btn">Log in</button>
+                        </form>
+                        <div class="auth">
+                            <span class="firstline__span"></span>
+                            <p>or sign in with</p>
+                            <span class="secondline__span"></span>
+                            <!-- TODO: ADD google icon image to the button -->
+                            <button id="google-auth">Google</button>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p>Dont have an account? <span id="sign__up"><a href="./signup.html">sign up</a></span></p>
+                    </div>
+                </div>
+            </div>
     </div>
 </div>
 

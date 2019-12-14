@@ -463,11 +463,24 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
     margin-bottom: 0px;
 }
 
-.next {
+.next, #next-one {
     background: #ff9b05;
     outline: none;
     border: none;
-    width: 200px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    margin: 0px auto;
+}
+
+#next-two, #back, #next-three{
+    background: #ff9b05;
+    outline: none;
+    border: none;
+    width: 500px;
     height: 50px;
     border-radius: 20px;
     color: white;
@@ -477,7 +490,8 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
 }
 
 .next-cover {
-    width: 200px;
+    display: flex;
+    width: 400px;
     height: 50px;
     margin: 20px auto;
 }
@@ -581,4 +595,8 @@ textarea {
 .contact-base div img {
     width: 400px;
     height: 400px;
+}
+
+#back {
+    background: #1D4354!important;
 }
