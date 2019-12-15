@@ -430,6 +430,7 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
     justify-content: center;
     align-items: center;
     display: none;
+    overflow: hidden;
 }
 
 .modal-content {
@@ -620,4 +621,10 @@ textarea {
 
 .location-cover, .location-cover2 {
     background: lightgray;
+}
+
+.sub-loc {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
 }

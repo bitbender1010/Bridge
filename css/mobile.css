@@ -290,3 +290,10 @@ input[type="radio"] {
     width: 20px;
     height: 20px;
 }
+
+.main-loc {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+}
