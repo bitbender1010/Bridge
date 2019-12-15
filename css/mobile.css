@@ -195,3 +195,98 @@ textarea {
 .divi {
     width: 90%;
 }
+
+/*modal popup responsive*/
+.pop-main {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.pop-sub {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.next-cover {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+.next, #next-one {
+    background: #ff9b05;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+.popup-main {
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+/*plus*/
+.plus {
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: -10px 00px;
+    background: none;
+    outline: none;
+    border: none;
+    transform: rotate(45deg);
+    padding: 20px;
+    z-index: 1000000;
+}
+
+.task-Q {
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.task-D {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+/*box input*/
+.box-input input {
+    border: 2px solid #D1D1D1;
+    width: 100%;
+    height: 70px;
+    margin: 0px auto;
+    border-radius: 20px;
+    outline: none;
+}
+
+.next-id {
+    width: 200px;
+    height: 50px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
