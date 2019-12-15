@@ -3,22 +3,10 @@
 Bridge is an online marketplace for outsourcing offline and remote tasks.
 
 ### Team Members
-* Ololade Damilare - Frontend (Team Lead)
-* Adebayo Ilerioluwa
+* Ololade Damilare - Frontend and UI designer (Team Lead)
+* Adebayo Ilerioluwa - Full stack developer
 * Anani Oluwatobiloba - Full stack developer
-
-# Problem
-
-
-
-# Proposed Solution
-
-
-# Proposed Stack
-
-
-# Benefit
-
+* Emeruche Uchenna - Full stack developer
 
 
 

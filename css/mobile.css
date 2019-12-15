@@ -1,12 +1,12 @@
 
 
-.right:nth-of-type(1), .right:nth-of-type(2) {
+/*.right:nth-of-type(1),*/ .right:nth-of-type(2) {
     display: none;
 }
 
 /*STYLING HERO TEXT*/
 .main-text {
-    font-size: 10vw;
+    font-size: 9.5vw;
     width: 100%;
     font-weight: bolder;
     /*line-height: 55px;*/
@@ -58,12 +58,13 @@
 
 /*how briidge works*/
 .how {
-    font-size: 8vw;
+    font-size: 7vw;
+    padding-top: 10px;
 }
 
 .how-details {
     font-size: 5vw;
-    width: 80%;
+    width: 90%;
 }
 
 /*video*/
@@ -111,8 +112,6 @@
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
-    color: white;
 }
 
 /*Earn button*/
@@ -125,6 +124,7 @@
 
 .boss-cover {
     padding: 20px 5%;
+    background: white!important;
 }
 
 .boss {
@@ -192,4 +192,106 @@ textarea {
 
 .divi {
     width: 90%;
+}
+
+/*modal popup responsive*/
+.pop-main {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.pop-sub {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.next-cover {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+.next, #next-one {
+    background: #ff9b05;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+.popup-main {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+/*plus*/
+.plus {
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: -10px 00px;
+    background: none;
+    outline: none;
+    border: none;
+    transform: rotate(45deg);
+    padding: 20px;
+    z-index: 1000000;
+}
+
+.task-Q {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.task-D {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+/*box input*/
+.box-input input {
+    border: 2px solid #D1D1D1;
+    width: 100%;
+    height: 70px;
+    margin: 0px auto;
+    border-radius: 20px;
+    outline: none;
+}
+
+.next-id {
+    width: 200px;
+    height: 50px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+.main-loc {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
 }

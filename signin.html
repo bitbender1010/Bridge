@@ -11,19 +11,19 @@
     <title>sign in</title>
 </head>
 <body>
+    <!--
     <div class="nav">
         <div class="brand">
-            <!-- TODO: put the brand logo image here and clear the comment -->
+            !-- TODO: put the brand logo image here and clear the comment --
            <img src="" alt="brand-logo"><span>Bridge</span>
         </div>
-
         <div class="home__nav">
-            <!-- TODO: link this to the home page -->
+            !-- TODO: link this to the home page --
             <a href="">Home</a>
         </div>
-    </div>
+    </div> -->
 
-    <div class="signin__container">
+    <div class="signin__container top">
         <div class="signin__form__div">
             <div class="header__cancel__modal"><p>Login to continue</p></div>
             <div class="form">
@@ -36,15 +36,16 @@
                         <p class="password__label">Password</p>
                         <input type="password" name="password" id="signin__password__input" required>
                     </label> <br>
-                    <button id="signin__btn">Log in</button>
+                    <button id="signin__btn"> Log in </button>
                 </form>
+                <!--
                 <div class="auth">
                     <span class="firstline__span"></span>
                     <p>or sign in with</p>
                     <span class="secondline__span"></span>
-                    <!-- TODO: ADD google icon image to the button -->
+                    !-- TODO: ADD google icon image to the button --
                     <button id="google-auth">Google</button>
-                </div>
+                </div> -->
             </div>
             <div class="bottom">
                 <p>Dont have an account? <span id="sign__up"><a href="./signup.html">sign up</a></span></p>
@@ -55,7 +56,6 @@
 <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-firestore.js"></script>
-
 <script>
      // Your web app's Firebase configuration
     
@@ -72,12 +72,10 @@
     
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-
 //   Make auth and firebase reference;
     const auth = firebase.auth();
     const db = firebase.firestore();
-
-
 </script>
 <script src="scripts/auth.js"></script>
+<script src="./login.js"></script>
 </html>

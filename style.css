@@ -15,6 +15,11 @@ nav {
     padding: 0px 5%;
 }
 
+a {
+    color: #8C8989;
+    text-decoration: none;
+}
+
 .logo-cover {
     display: flex;
     align-items: center;
@@ -37,7 +42,7 @@ button {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     align-items: center;
-    color: #8C8989;
+    color: #8C8989!important;
     font-size: 16px;
 }
 
@@ -255,7 +260,6 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
 .explore {
     margin-top: 50px;
     background-color: #ff9b05;
-    padding-bottom: 30px;
 }
 .explore-main {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -299,11 +303,12 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
 /* see all categories */
 .explore-side {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     margin-top: 50px;
-    color: white;
+    color: #1D4354;
+    padding-bottom: 10px;
 }
 
 .explore-side span a{
@@ -317,6 +322,7 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
     display: flex;
     padding: 20px 5%;
     justify-content: center;
+    background: white!important;
 }
 
 .boss {
@@ -384,13 +390,13 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
 .person-name {
     color: orangered;
     font-size: 30px;
-    font-family: cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
 
 .person-loc {
     font-size: 15px;
-    font-family: cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
 }
 
@@ -424,11 +430,12 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
     justify-content: center;
     align-items: center;
     display: none;
+    overflow: hidden;
 }
 
 .modal-content {
     width: 600px;
-    height: 80%;
+    height: 500px;
     background: white;
     display: flex;
     justify-content: center;
@@ -443,12 +450,12 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
 .pop-main {
     font-size: 30px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .pop-sub {
     font-size: 20px;
-    font-family: cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     color: gray;
 }
@@ -472,7 +479,7 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
     height: 50px;
     border-radius: 20px;
     color: white;
-    font-family: cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
     margin: 0px auto;
 }
@@ -485,7 +492,7 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
     height: 50px;
     border-radius: 20px;
     color: white;
-    font-family: cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
     margin: 0px auto;
 }
@@ -504,11 +511,13 @@ body > div.herobar > div.CTA > button.render > span, body > div.herobar > div.CT
     position: absolute;
     top: 0px;
     right: 0px;
-    margin: 10px 20px;
+    margin: -10px 20px;
     background: none;
     outline: none;
     border: none;
     transform: rotate(45deg);
+    padding: 20px;
+    z-index: 1000000;
 }
 
 /*Footer*/
@@ -612,4 +621,10 @@ textarea {
 
 .location-cover, .location-cover2 {
     background: lightgray;
+}
+
+.sub-loc {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
 }

@@ -13,19 +13,21 @@
     <link rel="stylesheet" href="./sign_in.css">
     <!--mobile-->
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
+    <!--mobile-->
+    <link rel="stylesheet" media="screen and (max-width: 380px)" href="./css/small.css">
     <!--Tablet-->
     <link rel="stylesheet" media="(max-width: 1000px) and (min-width: 601px)" href="./css/tablet.css">
 </head>
 <body>
     <!--NAVIGATION BAR-->
     <nav> 
-        <!--LOGO--> <div class="logo-cover"> <img src="./images/logo.png"/> </div>
+        <!--LOGO--> <div class="logo-cover"> <a href="./index.html"> <img src="./images/logo.png"/> </a> </div>
         <!--BUTTONS RIGHT--> 
         <div class="buttons-right">
-            <div class="orange-hover right">About</div> 
-            <div class="orange-hover right">How it works</div>
-            <div class="orange-hover right">Sign up</div> 
-            <div class="login"><button>Log in</button></div>
+            <!--<div class="orange-hover right">About</div>-->
+            <!--<div class="orange-hover right">How it works</div>-->
+            <a href="./signup.html"> <div class="orange-hover right"> Sign up  </div> </a>
+            <a href="./signin.html"> <div class="login"><button>Log in</button></div> </a>
         </div>
     <!--END >>> NAVIGATION BAR-->
     </nav>
@@ -38,14 +40,14 @@
        <div class="CTA">
        <button class="post"> <img src="./images/notepad.svg"/> <span> Post a task </span></button>
        <span class="or">or</span>
-       <button class="render"> <img src="./images/worker.svg"/> <span>Render a service</span> </button>
+       <button class="render"> <a href="https://forms.gle/bFpVeD5ofCuiuNTT7"> <img src="./images/worker.svg"/> <span>Render a service</span> </a> </button>
        </div>
     </div>
 
     <!--HOW BRIDGE WORKS-->
     <div class="how-cover">
-        <div class="how">How does Briidgee Work?</div>
-        <div class="how-details">Briidgee is an online marketplace for outsourcing both physical and remote tasks, below is a 3 step process on how to get your tasks done</div>
+        <div class="how">How does Bridge Work?</div>
+        <div class="how-details">Bridge is an online marketplace for outsourcing both physical and remote tasks, here are 3 steps on how to get started</div>
         
         <!--video image*/
         <div class="videoscreen"> <img src="./images/videoscreen.png" class="video"/>  /*<img src="./images/play.png" class="play"/> </div> -->
@@ -128,7 +130,7 @@
         </div>
 
         <!-- can't get what you want?-->
-        <div class="explore-side">Can't get what you are looking for? <span> <a href="./pages/categories.html"> See all categories </a></span></div>
+        <div class="explore-side">More categories coming soon... </div>
     </div>
 
     <!--Be your BOSS-->
@@ -283,13 +285,7 @@
                 <div id="error" style="display: none; border: 1px solid red; width: 500px; height: 50px; text-align: center;">Please make sure all data are passed in</div>
                 <div class="task-Q"> Enter your budjet</div>
                 <div class="task-D">How much do you plan to pay for this task?</div>
-                <div class="price-input"> <input type="text" id="price__value" required/> </div>
-                <!--Estimated Budjet-->
-                <div class="budjet">
-                    <div class="estimate"> ESTIMATED BUDJET </div>
-                    <div class="sub-estimate"> Final payment will be agreed on later </div>
-                    <div class="set-price"> 5000 </div>
-                </div>
+              
         <!--
                 /*details*/
                 <div class="task-Q"> What are the details?</div>
@@ -321,18 +317,12 @@
                             </label> <br>
                             <button id="signin__btn">Log in</button>
                         </form>
-                        <div class="auth">
-                            <span class="firstline__span"></span>
-                            <p>or sign in with</p>
-                            <span class="secondline__span"></span>
-                            <!-- TODO: ADD google icon image to the button -->
-                            <button id="google-auth">Google</button>
-                        </div>
                     </div>
-                    <div class="bottom">
-                        <p>Dont have an account? <span id="sign__up"><a href="./signup.html">sign up</a></span></p>
-                    </div>
-                </div>
+                    <!--Login deleted-->
+                <div class="bottom">
+                <p>Dont have an account? <span id="sign__up"><a href="./signup.html">sign up</a></span></p>
+            </div> <!--end of login-added -->
+</div>
             </div>
     </div>
 </div>
